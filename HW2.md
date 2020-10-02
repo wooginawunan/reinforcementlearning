@@ -6,26 +6,14 @@ Code in: https://github.com/wooginawunan/reinforcementlearning/
 
 2. Attach images of frames/data that you collected in 1 page of your PDF submission.
 
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_0.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_1.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_2.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_3.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_4.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_5.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_6.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_7.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_8.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_9.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_10.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_11.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_12.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_13.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_14.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_15.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_16.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_17.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_18.png)
-![Images](https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_19.png)
+<img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_0.png">
+<img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_1.png">
+<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_2.png">
+<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_3.png">
+<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_4.png">
+
+For more images, please check https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files
+
 
 3. Attach images of frames/data that your behavior cloned policy produces in 1 page of your PDF submission.
 
