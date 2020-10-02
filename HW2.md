@@ -22,7 +22,6 @@ For more images, please check https://github.com/wooginawunan/reinforcementlearn
 
 4. Attach a curve that shows how important is the number of datapoints for behavior cloning in your PDF submission. In this curve, x-axis is the number of training examples and y-axis is the performance of the behavior cloning policy.
 
-
 5. Additionally, attach screenshots, logs along with anything you feel is necessary as proof that your code worked in your PDF submission.
 
 * Learning curve presenting training and validation performance of the model. 
@@ -36,12 +35,15 @@ For more images, please check https://github.com/wooginawunan/reinforcementlearn
 
 """{"episode_rewards": [532.3503311258146, 770.8677419354677, 579.477464788721, 849.2243243243041, 851.2108614232069, 316.10111731842414], "mean": 649.8719734859898, "std": 193.68720112070298}"""
 
-
-
 6. Write up any tricks you had to use to make behavior cloning work better.
 
+I use ResNet-18 as the backbone achitecture for the network and applied the following tricks to improve the performance:
 
-7. Extra credit: Implement DAGGER and show how it can obtain better results than behavior cloning.
+* weight decay is considered in the optimizer 
+* A technique named modality dropout [https://arxiv.org/pdf/1501.00102.pdf] is utilized when learning from multiple images in the history.
+* The ResNet-18s applied on history images are sharing weights with each other, which is also an common technique used in multi-modal learning.
+* I considered lenght of history, learning rate as hyperparameters and conducted random search to find the optimal configuration. 
 
 # Question 2: Value Iteration
 
+1. 
