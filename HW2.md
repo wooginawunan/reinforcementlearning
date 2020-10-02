@@ -51,6 +51,9 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 * A technique named modality dropout [https://arxiv.org/pdf/1501.00102.pdf] is utilized when learning from multiple images in the history.
 * The ResNet-18s applied on history images are sharing weights with each other, which is also an common technique used in multi-modal learning.
 * I considered lenght of history, learning rate as hyperparameters and conducted random search to find the optimal configuration. 
+* Learning rate scheduler is added and learning rate is reduced with a rate of 0.1 at per 2000 steps.
+
+The final best performed model is using learning of 0.1, weight decay of 0.001 and a history including 10 past+current images.
 
 # Question 2: Value Iteration
 
