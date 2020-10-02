@@ -46,4 +46,14 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 
 # Question 2: Value Iteration
 
-1. 
+### Section 2.2 
+
+
+### Section 2.3 
+
+
+### Section 2.4 
+
+Action values: 
+
+$$q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))]$$
