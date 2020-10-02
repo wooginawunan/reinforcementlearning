@@ -56,5 +56,4 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 
 Action values: 
 
-\begin{equation} q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))]
-\end{equation}
+$ q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))] $
