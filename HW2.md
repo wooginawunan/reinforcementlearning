@@ -56,6 +56,10 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 
 ### Section 2.2 
 
+When s = 50, and a = 50, p(get reward |s = 50, a = 50) = p_h. 
+which is higher than any other options with, for example,  p(get reward |s = 50, a = 49) = p_h * alpha, and alpha <= p_h. 
+
+Similar reasoning behind other obersevations when s=25 and s=75.  
 
 ### Section 2.3 
 
