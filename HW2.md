@@ -2,7 +2,7 @@
 
 1. Make necessary changes to the starter code to make it work for Behaviour cloning. Submit code as a zip file.
 
-Code in: https://github.com/wooginawunan/reinforcementlearning/
+Code in: https://github.com/wooginawunan/reinforcementlearning/HW2/Q1
 
 2. Attach images of frames/data that you collected in 1 page of your PDF submission.
 
