@@ -8,9 +8,9 @@ Code in: https://github.com/wooginawunan/reinforcementlearning/
 
 <img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_0.png">
 <img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_1.png">
-<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_2.png">
-<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_3.png">
-<img align="left" width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_4.png">
+<img  width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_2.png">
+<img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_3.png">
+<img width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_4.png">
 
 For more images, please check https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files
 
