@@ -54,6 +54,5 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 
 ### Section 2.4 
 
-Action values: 
-
-$ q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))] $
+Action values: q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))] 
+<a href="https://www.codecogs.com/eqnedit.php?latex=q_{k&plus;1}(s,&space;a)&space;=&space;\sum_{s',&space;r}&space;p(s',&space;r&space;|&space;s,&space;a)&space;[r&space;&plus;&space;max(q_k(s',&space;a'))]" target="_blank"><img src="https://latex.codecogs.com/emf.latex?q_{k&plus;1}(s,&space;a)&space;=&space;\sum_{s',&space;r}&space;p(s',&space;r&space;|&space;s,&space;a)&space;[r&space;&plus;&space;max(q_k(s',&space;a'))]" title="q_{k+1}(s, a) = \sum_{s', r} p(s', r | s, a) [r + max(q_k(s', a'))]" /></a>
