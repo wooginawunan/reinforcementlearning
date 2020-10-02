@@ -41,6 +41,8 @@ Please find all details in https://github.com/wooginawunan/reinforcementlearning
 
 """{"episode_rewards": [532.3503311258146, 770.8677419354677, 579.477464788721, 849.2243243243041, 851.2108614232069, 316.10111731842414], "mean": 649.8719734859898, "std": 193.68720112070298}"""
 
+* Model checkpoints in https://github.com/wooginawunan/reinforcementlearning/blob/main/Q1/models/
+
 6. Write up any tricks you had to use to make behavior cloning work better.
 
 I use ResNet-18 as the backbone achitecture for the network and applied the following tricks to improve the performance:
