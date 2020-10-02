@@ -25,6 +25,18 @@ For more images, please check https://github.com/wooginawunan/reinforcementlearn
 
 5. Additionally, attach screenshots, logs along with anything you feel is necessary as proof that your code worked in your PDF submission.
 
+* Learning curve presenting training and validation performance of the model. 
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_5_files/training.png">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_5_files/val.png">
+</p>
+
+* Log recording five rounds of the behavior cloned policy. 
+
+"""{"episode_rewards": [532.3503311258146, 770.8677419354677, 579.477464788721, 849.2243243243041, 851.2108614232069, 316.10111731842414], "mean": 649.8719734859898, "std": 193.68720112070298}"""
+
+
 
 6. Write up any tricks you had to use to make behavior cloning work better.
 
