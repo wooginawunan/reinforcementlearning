@@ -11,14 +11,14 @@ Code in: https://github.com/wooginawunan/reinforcementlearning/
 <img align='left'  width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_2.png">
 <img align='left' width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_3.png">
 <img align='left' width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_4.png">
-<img align='left' width="150" height="100" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files/img_5.png">
-
 
 For more images, please check https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_2_files
 
-
 3. Attach images of frames/data that your behavior cloned policy produces in 1 page of your PDF submission.
 
+I selected two series of snapshots, presenting how the car passes turns under my behavior cloned policy. Please find all details in  
+
+For more images, please check https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files. 
 
 4. Attach a curve that shows how important is the number of datapoints for behavior cloning in your PDF submission. In this curve, x-axis is the number of training examples and y-axis is the performance of the behavior cloning policy.
 
