@@ -16,9 +16,15 @@ For more images, please check https://github.com/wooginawunan/reinforcementlearn
 
 3. Attach images of frames/data that your behavior cloned policy produces in 1 page of your PDF submission.
 
-I selected two series of snapshots, presenting how the car passes turns under my behavior cloned policy. Please find all details in  
+I selected two series of snapshots, presenting how the car passes turns under my behavior cloned policy. 
 
-For more images, please check https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files. 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files/case_1.png">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files/case_2.png">
+</p>
+
+
+Please find all details in https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files. 
 
 4. Attach a curve that shows how important is the number of datapoints for behavior cloning in your PDF submission. In this curve, x-axis is the number of training examples and y-axis is the performance of the behavior cloning policy.
 
@@ -35,6 +41,8 @@ For more images, please check https://github.com/wooginawunan/reinforcementlearn
 
 """{"episode_rewards": [532.3503311258146, 770.8677419354677, 579.477464788721, 849.2243243243041, 851.2108614232069, 316.10111731842414], "mean": 649.8719734859898, "std": 193.68720112070298}"""
 
+* Model checkpoints in https://github.com/wooginawunan/reinforcementlearning/blob/main/Q1/models/
+
 6. Write up any tricks you had to use to make behavior cloning work better.
 
 I use ResNet-18 as the backbone achitecture for the network and applied the following tricks to improve the performance:
@@ -48,9 +56,19 @@ I use ResNet-18 as the backbone achitecture for the network and applied the foll
 
 ### Section 2.2 
 
+When s = 50, and a = 50, p(get reward |s = 50, a = 50) = p_h. 
+which is higher than any other options with, for example,  p(get reward |s = 50, a = 49) = p_h * alpha, and alpha <= p_h. 
+
+Similar reasoning behind other obersevations when s=25 and s=75.  
 
 ### Section 2.3 
 
+Outputs for p= 0.25 and p = 0.55. Code in https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q2/question2.py
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q2/0.25.png">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q2/0.55.png">
+</p>
 
 ### Section 2.4 
 
