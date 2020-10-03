@@ -54,7 +54,7 @@ I collected 10,000 data samples in total and used 10% as validation set. Therefo
 * One testing episode using agend trained with 7000 sample points is recorded and presented:
 
 <p align="center">
-  <img src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_5_files/Screen%20Recording%20-%20test-7000.mov">
+  <video src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_5_files/Screen%20Recording%20-%20test-7000.mov" width="320" height="200" controls preload></video>
 </p>
 
 6. Write up any tricks you had to use to make behavior cloning work better.
