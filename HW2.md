@@ -27,11 +27,12 @@ Please find all details in https://github.com/wooginawunan/reinforcementlearning
 
 4. Attach a curve that shows how important is the number of datapoints for behavior cloning in your PDF submission. In this curve, x-axis is the number of training examples and y-axis is the performance of the behavior cloning policy.
 
+I collected 10,000 data samples in total and used 10% as validation set. Therefore the maximum training sample size is 9,000. To get the required curve, I trained models with 1,000, 3,000, 5,000, 7,000 and 9,000 samples as training data. The agent for each is selected based on its validation accuracy. Each agent has performed 7 episodes during testing. I used boxplot to present the collect rewards by each agent. We can see that using more datapoints is helpful for behavior cloning. Besides the boxplot, on the right, I showed the validation performance achieved by the models trained with each sample size. It shows consistent pattern with the collected rewards.      
+
 <p align="center">
   <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_4_files/training_samplesize.png">
   <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_4_files/validation.png">
 </p>
-
 
 5. Additionally, attach screenshots, logs along with anything you feel is necessary as proof that your code worked in your PDF submission.
 
@@ -44,9 +45,11 @@ Please find all details in https://github.com/wooginawunan/reinforcementlearning
 
 * Log recording five rounds of the behavior cloned policy. 
 
-"""{"episode_rewards": [532.3503311258146, 770.8677419354677, 579.477464788721, 849.2243243243041, 851.2108614232069, 316.10111731842414], "mean": 649.8719734859898, "std": 193.68720112070298}"""
+{"episode_rewards": [919.599999999984, 807.9459770114815, 768.3038327526003, 769.3158075601194, 799.2506493506305, 857.497173144859, 620.6547169811201], 
+  "mean": 791.7954509715421, 
+  "std": 85.61832234513746}
 
-* Model checkpoints in https://github.com/wooginawunan/reinforcementlearning/blob/main/Q1/models/
+* Logs with real time testing for all trained models can be found in https://github.com/wooginawunan/reinforcementlearning/blob/main/Q1/results/
 
 6. Write up any tricks you had to use to make behavior cloning work better.
 
@@ -65,9 +68,10 @@ The final best performed model is using learning of 0.1, weight decay of 0.001 a
 ### Section 2.2 
 
 When s = 50, and a = 50, p(get reward |s = 50, a = 50) = p_h. 
+
 which is higher than any other options with, for example,  p(get reward |s = 50, a = 49) = p_h * alpha, and alpha <= p_h. 
 
-Similar reasoning behind other obersevations when s=25 and s=75.  
+Similarly we can explain the oberseved patterns when s=25 and s=75.  
 
 ### Section 2.3 
 
