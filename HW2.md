@@ -23,10 +23,15 @@ I selected two series of snapshots, presenting how the car passes turns under my
   <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files/case_2.png">
 </p>
 
-
 Please find all details in https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_3_files. 
 
 4. Attach a curve that shows how important is the number of datapoints for behavior cloning in your PDF submission. In this curve, x-axis is the number of training examples and y-axis is the performance of the behavior cloning policy.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_4_files/training_samplesize.png">
+  <img width="460" height="300" src="https://github.com/wooginawunan/reinforcementlearning/blob/main/HW2/Q1_4_files/validation.png">
+</p>
+
 
 5. Additionally, attach screenshots, logs along with anything you feel is necessary as proof that your code worked in your PDF submission.
 
